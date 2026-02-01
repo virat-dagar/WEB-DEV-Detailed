@@ -70,10 +70,11 @@ console.log(numbers) // [1, 2, 3, 4, 5]
 
 //    Syntax
 //    splice(startIndex, deleteCount, item1, item2,...)
+
 //      startIndex: the position where changes will start
-//      deleteCount: Numbers of items to remove starting from that position
-//      item1, item2...: (optional) New items that we want to add into the array
-//      starting from the startIndex position
+//        deleteCount: Numbers of items to remove starting from that position
+//          item1, item2...: (optional) New items that we want to add into the array
+//            starting from the startIndex position
 
 const names = ["Krish", "Rahul", "Sohit", "Shan"];
 names.splice(1, 2, "Sunil")

@@ -3,6 +3,7 @@
 // let output = numbers.map(x => x*2)
 // console.log(output)
 
+
 // filter()
 // let marks = [7, 23, 36, 40, 15, 11, 34, 22, 18, 10]
 // let pass = marks.filter(x => x>16) 
@@ -17,7 +18,7 @@
 //         console.log(mark, "fail");
 //     }
 // })
-// result()
+// console.log(result)  // [23, 36, 40, 15, 11, 34, 22, 18, 10]
 
 //find out the sum of all the elements inside an array using for loop
 // let arr = [1, 3, 6, 2, 9]

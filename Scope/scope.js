@@ -1,4 +1,4 @@
-// Scope: Determines the viisibility and accessibility of variables and functions in different parts
+// Scope: Determines the visibility and accessibility of variables and functions in different parts
 //        of a program
 
 // Basically, it determines where a variable or function can be accessed or called in a program
