@@ -87,7 +87,7 @@ console.log(result);  // 'Stay inside the house'
           console.log(x); // 5
 
 //      ii) Pre increment
-//         Increase first and then us
+//         Increase first and then use
 
 let u = 5;
 let v = ++u;  
@@ -106,7 +106,7 @@ console.log(q); // 23
 console.log(r); // 22
 
 //      ii) Pre decrement
-//       decrement first ad=nd then increase
+//       decrement first and then use
 
 let m = 10;
 let n = --m;
@@ -133,7 +133,7 @@ athleteName += "Kohli";
 
 // 8) Nullish coalescing
 //  Returns its right-hand side operand when its right-hand side operand
-//  either null or undefined 
+//  is either null or undefined 
 //  Otherwise, returns its left hand side operand
 
 // Safer way  to assign default values compared to the logical OR(||)
@@ -159,3 +159,32 @@ let databaseValue = null;
 let finalName = databaseValue ?? "Anonymous"
 // result: 'Anonymous'
 
+// 9) Bitwise operators
+//     Work on binary(bits)
+
+//   a) Bitwise AND(&)
+//     Bit is 1 only if both bits are 1
+
+//   5 & 3
+//   5 -> 0101
+//   3 -> 0011
+
+//   Result: 1
+
+// 2) Bitwise OR
+//     Bit is 1 if any bit is 1
+
+//   console.log(5 & 3)   output: 7
+//   5 -> 0101
+//   3 -> 0011
+//    5 & 3 -> 0111
+//   Final result:  7
+
+//  3) XOR
+//    Bit is 1 if bits dffer
+
+//    5 ^ 3
+//    5 -> 0101   3 -> 0011;
+
+//   d) NOT
+//    Flips all bits

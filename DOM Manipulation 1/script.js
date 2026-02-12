@@ -1,17 +1,9 @@
-// 
 
 const para = document.getElementsByTagName("p");
 console.log(para);
 // para.style.color = "blue";  wrong
-// for (let i=0; i<para.length; i++){
-//     if (i % 2 !== 0 && i<=para.length){
-//         para[i].style.color = "blue";
-//     }
-//     else {
-//         para[i].style.color = "green"
-//     }
-// }
-// para[para.length-1].style.fontWeight = "bold";
+
+// We need to iterate using  for loop
 
 // for (let i=0; i<para.length; i++){
 //     if (i % 2 !== 0 && i<=para.length){
