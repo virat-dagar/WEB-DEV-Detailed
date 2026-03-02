@@ -66,5 +66,5 @@ ArrayFromCollection.forEach(element => console.log(element.textContent));
 let collection2 = document.getElementsByTagName("p");
 let ArrayFromCollection2 = Array.from(collection2, element => element.textContent*2);
 
-console.log(ArrayFromCollection2);
+console.log(ArrayFromCollection2);  // [2, 4, 6, 8]
 
