@@ -32,7 +32,7 @@
 //  2) DOM property method(traditional JS way)
 //     We assign a function to event property
     let second_btn = document.getElementById("2nd");
-    btn.onclick = function(){
+    second_btn.onclick = function(){
         console.log("Button Clicked!");
     };
 //   or
@@ -40,7 +40,7 @@
 //         console.log("Button Clicked!");
 //       }
 //   
-    let third_btn = document.querySelector("#3rd");
+    let third_btn = document.getElementById("3rd");
     third_btn.ondblclick = () => {
       console.log("Button Clicked twice");
     };
@@ -56,7 +56,7 @@
 //       --> clean code --> easy to maintain
 //      ALLOWS MULTIPLE LISTENERS ON A SINGLE ELEMENT
 
-let fourth_btn = document.querySelector("#4th");
+let fourth_btn = document.getElementById("4th");
 fourth_btn.addEventListener("click", () => {
     console.log("Button Clicked!");
 });
@@ -67,4 +67,36 @@ fourth_btn.addEventListener("click", () => {
 //  BOTH LISTENERS WILL WORK
 //   MULTIPLE LISTENERS ALLOWED ON A SINGLE ELEMENT
 
+// Event Object
+//  An object which is created by the browser when an event happens
+//  Automatically passed to the handler function by the browser 
+//  Contains details about the event
+//    > type of event       > target element
+//    > current target      > keyboard key pressed(for keyboard events)
+//    > mouse position
+
+//  Some Properties of Event Object
+//  1) event.type
+//    Type of event (eg. keyboard event, mouse event etc.)
+
+//  2) event.target
+//    The element which triggered the event
+
+//  3) event.currentTarget
+//    The element to which the listener is attached
+
+//  4) event.clientX
+//    Mouse X position
+
+//  5) event.clientY
+//    Mouse Y position
+
+//  6) event.key
+//    key pressed (keyboard event)
+
+//  7) event.preventDefault()
+//    prevent default behavior
+
+//  8) event.stopPropagation
+//    stop event propagation
 
